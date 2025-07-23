@@ -1,2 +1,2 @@
 # days-of-code-log
-dsa progress journal
+dsa progress journal with questions and notes
