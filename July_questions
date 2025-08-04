@@ -52,7 +52,7 @@ learnt some tricks for sqaureroot power bit maniutation xor
 
 
 ##DAY 30
-- SOLVE DDAILY CHALLENGE BASED ON GREEDY ALGO
+- SOLVE DAILY CHALLENGE BASED ON GREEDY ALGO
 - tree based easy questions
 - not much progress today helsth issue
 
@@ -62,7 +62,13 @@ learnt some tricks for sqaureroot power bit maniutation xor
 
 
 ## DAY 31
-- solved eay tree problems 
-- trying letcode daily  -- max fruit  harvest with atmost k steps
+- solved easy tree problems 
+- trying leetcode daily  -- max fruit  harvest with atmost k steps (not able to solve question of kowerbound upper bound didnt get concept so skipped the challenge)
+
+
+##DAY 32
+
+-solved daily challemge fruit collect (sliding window problem ) initially did know sliding wondow will be applied but the implementation part did not work understoodUS A 
+- solved find mode in bst (inorder traversal GIVES US A SORTED ARRAY*) travered kept a map with freq count return the result{} with maxFreq if two of same freq then appended int the redult{}
 
 
