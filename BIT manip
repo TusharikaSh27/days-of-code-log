@@ -1,0 +1,39 @@
+to check if all set bits 
+(num &(num+1))==0;
+
+
+Q693- Binary Number with alternating Bits
+
+App-1  class Solution {
+public:
+    bool hasAlternatingBits(int n) {
+       unsigned int result=n^(n>>1);
+        return (result & (result+1))==0;
+      
+    }
+};
+
+App-2   bitset<32>b(n);
+        int highestSetBit=log2(n);
+        for(int i=0;i<=highestSetBit;i++){
+            if(b[i]==b[i+1])return false;
+        }
+        return true;
+
+
+
+App-3   int currBit=n%2;
+       n/=2;
+
+       while(n>0){
+        if(currBit==n%2)
+            return false;
+            currBit=n%2;
+            n/=2;
+        }
+       return true;
+       
+
+
+
+
