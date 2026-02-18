@@ -1,0 +1,13 @@
+revision
+
+
+1 frog jump || frog jump 2  we return dp[n-1] as array list is storedin ap
+2 climb stairs 
+3 fibonacci       we return dp[n]as dp[i] represents the actual value at i so dp[5]=value of 5 return 
+
+4 Minimum alternating subsequence
+
+LIS ( LONGEST INCREASING SUBSEQUENCES AND ITS VARIANTS)
+
+
+
