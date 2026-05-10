@@ -1,0 +1,25 @@
+april 
+Java basics 
+
+
+
+array 
+collecations 
+strings 
+oops 
+
+
+injava 
+
+data modelling er diag 
+entities 
+dao
+dto 
+businessobject layer
+daoimplementation
+util testcses
+exception
+
+
+firdt made dao dto all in java colection then changed to dbutil and jdbc created database connection
+junit 
