@@ -1,2 +1,13 @@
 SIEVE OF ERATHOSENES 
 
+prime=1&itself are the factors
+
+brute
+n=23--(1,23)
+for(nm=2;num<=22;num++){
+if(n%num==0){
+return false;}}
+TC=0(N)  SC=O(1)
+
+
+
