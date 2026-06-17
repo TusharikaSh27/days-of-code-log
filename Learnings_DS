@@ -1,0 +1,22 @@
+- if missing elememt ques then its int n=arr.size+1;
+- if both missing & repeating in a ques go for unordered_map<freq> then aloopt to iterate over the whole vector arr.
+- KADANES ALGO(MAX SUM SUBARRAY)
+  keep adding elements to a running sum.
+  if sum becomes negative reset it to 0.
+  keep track of max sum seen so far.
+
+-MOORES VOTING ALGO(MAJORITY ELEMENT CANCELS OUT ALL OTEHR)
+  same element increases count
+  diff elemt decrease count
+  majority element always survives
+    for(int num:arr){
+    if(count==0){
+    candidate=num;}
+    if(num==candidate){
+    count++;}
+    else{
+    count--;}}
+
+
+
+  
