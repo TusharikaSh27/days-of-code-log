@@ -1,0 +1,28 @@
+- Integer.MIN_VALUE
+Math.sort
+
+- HashMap has lots of diff 
+HashMap<Integer,Integer>map=new HashMap<>();
+  for(int num:arr){
+  map.put(num,map.getOrDefault(num,0)+1);}
+  int repeating=-1,misisng=-1;
+  for(int i=1;i<=n;i++){
+    if(map.getOrDefault(i,0)==2)repeating=i;
+    if(map.getOrDefault(i,0)==0)missing=i;}
+  return new int[]{repeating,missing};
+  }
+
+
+-majority el
+    int majEle(int arr[]){
+    int n=arr.length;
+    HashMap<Integer,Integer>map=new HashMap<>();
+    for(int num:arr){
+    map.put(num,map.getOrDefault(num,0)+1);
+    }
+    for(Map.Entry<Integer,Integer>entry:map.entrySet()){
+    if(entry.getValue()>n/2){
+    return entry.getKey();
+}
+}
+return -1;}}
